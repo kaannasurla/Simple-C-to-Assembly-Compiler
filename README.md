@@ -1,16 +1,5 @@
 # Simple-C-to-Assembly-Compiler
-# Homework 1
 
-## Assignment: Simple C-to-Assembly Compiler
-
-**Deadline soft**: 6 aprilie 2025, 11:55PM
-
-**Deadline hard**: 11 aprilie 2025, 11:55PM
-
-**Authors**
-
-* Robert Grancsa
-* Adelina Alexe
 
 ## Introduction
 ![](banner.webp)
