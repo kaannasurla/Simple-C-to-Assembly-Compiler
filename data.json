@@ -1,0 +1,211 @@
+{
+  "tests": [
+    [
+      {
+        "id": 0,
+        "name": "MOV 1",
+        "status": "5",
+        "log": "MOV edx, 77\nMOV ebx, 23\nMOV eax, 96\nMOV eax, 23\nMOV ecx, 58\n",
+        "time_normal": 0.0025942,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 1,
+        "name": "MOV 2",
+        "status": "5",
+        "log": "MOV eax, ecx\nMOV edx, edx\nMOV edx, 59\nMOV ebx, ebx\nMOV ecx, ebx\nMOV eax, ecx\nMOV ebx, 76\nMOV ebx, 89\n",
+        "time_normal": 0.0025233,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 2,
+        "name": "LOGICAL 1",
+        "status": "5",
+        "log": "AND edx, 42\nXOR ebx, 41\nXOR eax, 39\n",
+        "time_normal": 0.0029894,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 3,
+        "name": "LOGICAL 2",
+        "status": "5",
+        "log": "AND ecx, 73\nAND edx, 45\nAND eax, 6\nAND edx, eax\nOR eax, 19\nXOR ebx, eax\nAND eax, 44\nXOR edx, 89\nAND edx, 20\nAND eax, 41\n",
+        "time_normal": 0.0027604,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 4,
+        "name": "ADD 1",
+        "status": "5",
+        "log": "ADD eax, edx\nADD ecx, 26\nADD ebx, ebx\nADD ebx, 63\n",
+        "time_normal": 0.0036485,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 5,
+        "name": "ADD 2",
+        "status": "5",
+        "log": "ADD ecx, 65\nADD ebx, edx\nADD ebx, 20\nADD edx, eax\nADD ebx, edx\nADD edx, 23\nADD ecx, ebx\nADD ecx, 52\nADD eax, 83\n",
+        "time_normal": 0.0031083,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 6,
+        "name": "SUB 1",
+        "status": "5",
+        "log": "SUB eax, eax\nSUB edx, ebx\nSUB ecx, ebx\nSUB eax, 55\nSUB ebx, 16\n",
+        "time_normal": 0.0028705,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 7,
+        "name": "SUB 2",
+        "status": "5",
+        "log": "SUB ebx, 55\nSUB ebx, 22\nSUB ebx, 70\nSUB ebx, 90\nSUB ebx, 50\nSUB edx, 82\nSUB eax, 67\nSUB edx, 83\nSUB ebx, 28\nSUB ebx, ebx\n",
+        "time_normal": 0.0023999,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 8,
+        "name": "MUL 1",
+        "status": "5",
+        "log": "MOV eax, edx\nMUL 8\nMOV edx, eax\nMOV eax, ecx\nMUL ecx\nMOV ecx, eax\nMOV eax, ecx\nMUL ebx\nMOV ecx, eax\n",
+        "time_normal": 0.0023917,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 9,
+        "name": "MUL 2",
+        "status": "5",
+        "log": "MOV eax, ebx\nMUL 4\nMOV ebx, eax\nMOV eax, edx\nMUL 7\nMOV edx, eax\nMOV eax, ecx\nMUL 8\nMOV ecx, eax\nMOV eax, ecx\nMUL edx\nMOV ecx, eax\nMOV eax, ebx\nMUL 0\nMOV ebx, eax\nMOV eax, ebx\nMUL 1\nMOV ebx, eax\nMOV eax, ebx\nMUL ecx\nMOV ebx, eax\nMOV eax, edx\nMUL ebx\nMOV edx, eax\nMOV eax, ebx\nMUL edx\nMOV ebx, eax\n",
+        "time_normal": 0.0024218,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 10,
+        "name": "DIV 1",
+        "status": "5",
+        "log": "MOV eax, ebx\nDIV 8\nMOV ebx, eax\nMOV eax, ebx\nDIV 4\nMOV ebx, eax\nError\nMOV eax, ecx\nDIV 5\nMOV ecx, eax\nMOV eax, ecx\nDIV ecx\nMOV ecx, eax\n",
+        "time_normal": 0.0023684,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 11,
+        "name": "DIV 2",
+        "status": "5",
+        "log": "MOV eax, ecx\nDIV 2\nMOV ecx, eax\nMOV eax, ecx\nDIV 9\nMOV ecx, eax\nMOV eax, ebx\nDIV 8\nMOV ebx, eax\nMOV eax, ebx\nDIV 6\nMOV ebx, eax\nMOV eax, ecx\nDIV ebx\nMOV ecx, eax\nMOV eax, ecx\nDIV ecx\nMOV ecx, eax\nMOV eax, ebx\nDIV ebx\nMOV ebx, eax\nMOV eax, ebx\nDIV 5\nMOV ebx, eax\nMOV eax, ebx\nDIV 2\nMOV ebx, eax\nMOV eax, ecx\nDIV ebx\nMOV ecx, eax\n",
+        "time_normal": 0.0023872,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 12,
+        "name": "SHIFT 1",
+        "status": "5",
+        "log": "SHR edx, 20\nSHR eax, 24\nSHR ebx, 4\nSHR ebx, 7\nSHL edx, 2\n",
+        "time_normal": 0.0023854,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 13,
+        "name": "SHIFT 2",
+        "status": "5",
+        "log": "SHR ecx, 17\nSHR eax, 2\nSHR ecx, 16\nSHR edx, 11\nSHR edx, 10\nSHL eax, 0\nSHL ebx, 29\nSHL edx, 8\nSHL ecx, 29\n",
+        "time_normal": 0.0023061,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 14,
+        "name": "IF 1",
+        "status": "5",
+        "log": "CMP edx, 8\nJL end_label\nMOV eax, ebx\nMUL edx\nMOV ebx, eax\nend_label:\nCMP edx, 14\nJNE end_label\nOR ebx, ebx\nMOV eax, edx\nMUL ebx\nMOV edx, eax\nSHL edx, 1\nSUB eax, eax\nend_label:\nCMP edx, 67\nJG end_label\nError\nend_label:\nCMP eax, 96\nJG end_label\nSUB edx, ecx\nend_label:\nCMP edx, 82\nJNE end_label\nSUB eax, 10\nSUB ebx, 72\nend_label:\n",
+        "time_normal": 0.0024631,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 15,
+        "name": "IF 2",
+        "status": "5",
+        "log": "CMP edx, 95\nJG end_label\nSUB ebx, 72\nMOV eax, edx\nMUL edx\nMOV edx, eax\nADD ebx, ecx\nXOR ebx, 65\nADD eax, ebx\nend_label:\nCMP edx, 87\nJL end_label\nSHL edx, 26\nMOV eax, ebx\nMUL 10\nMOV ebx, eax\nADD edx, edx\nMOV ecx, edx\nMOV eax, ebx\nMUL ecx\nMOV ebx, eax\nend_label:\nCMP eax, 82\nJNE end_label\nADD eax, 37\nSUB ecx, ebx\nMOV eax, ecx\nXOR edx, 51\nSUB ebx, 50\nend_label:\nCMP ebx, 14\nJGE end_label\nADD edx, 13\nSHR ebx, 27\nADD eax, 57\nSUB eax, 65\nend_label:\nCMP eax, 33\nJNE end_label\nADD edx, 61\nADD eax, 86\nMOV eax, ebx\nDIV 10\nMOV ebx, eax\nend_label:\nCMP ebx, 46\nJL end_label\nError\nSHR edx, 29\nSUB ecx, 2\nSHL eax, 6\nend_label:\nCMP edx, 99\nJLE end_label\nMOV eax, 40\nMOV eax, ecx\nMUL 4\nMOV ecx, eax\nSUB eax, 82\nSHR ebx, 27\nAND eax, 87\nend_label:\nCMP eax, 75\nJNE end_label\nSHR edx, 10\nend_label:\nCMP ecx, 97\nJNE end_label\nMOV eax, edx\nMUL 2\nMOV edx, eax\nend_label:\nCMP edx, 50\nJLE end_label\nSUB eax, 24\nend_label:\n",
+        "time_normal": 0.0026668,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 16,
+        "name": "WHILE 1",
+        "status": "5",
+        "log": "start_loop:\nCMP ebx, 9\nJNE end_label\nSUB ecx, ebx\nJMP start_loop\nend_label:\nstart_loop:\nCMP ecx, 23\nJGE end_label\nOR ecx, 11\nAND edx, edx\nXOR ecx, 43\nJMP start_loop\nend_label:\nstart_loop:\nCMP edx, 50\nJNE end_label\nXOR edx, 69\nMOV ebx, ecx\nJMP start_loop\nend_label:\nstart_loop:\nCMP eax, 53\nJLE end_label\nMOV eax, ecx\nDIV 3\nMOV ecx, eax\nMOV ebx, edx\nSHR ecx, 20\nADD edx, edx\nMOV eax, 49\nJMP start_loop\nend_label:\n",
+        "time_normal": 0.0024503,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 17,
+        "name": "WHILE 2",
+        "status": "5",
+        "log": "start_loop:\nCMP edx, 85\nJNE end_label\nMOV eax, ecx\nMUL 7\nMOV ecx, eax\nMUL 9\nSHR ebx, 27\nSUB edx, 5\nJMP start_loop\nend_label:\nstart_loop:\nCMP eax, 64\nJL end_label\nADD ebx, eax\nMOV eax, ecx\nDIV ecx\nMOV ecx, eax\nSHR ebx, 23\nADD eax, edx\nMOV edx, edx\nJMP start_loop\nend_label:\nstart_loop:\nCMP edx, 47\nJLE end_label\nAND ebx, 57\nJMP start_loop\nend_label:\nstart_loop:\nCMP ebx, 15\nJG end_label\nMOV eax, ecx\nDIV 8\nMOV ecx, eax\nMOV edx, 77\nOR ebx, edx\nADD edx, 4\nJMP start_loop\nend_label:\nstart_loop:\nCMP ecx, 29\nJNE end_label\nMOV eax, eax\nADD eax, 32\nMOV ebx, 30\nMOV eax, ebx\nDIV 7\nMOV ebx, eax\nSUB edx, 59\nJMP start_loop\nend_label:\nstart_loop:\nCMP ebx, 47\nJNE end_label\nSHR eax, 28\nMOV eax, ecx\nDIV 9\nMOV ecx, eax\nADD ebx, 34\nMOV eax, ebx\nMUL eax\nMOV ebx, eax\nJMP start_loop\nend_label:\nstart_loop:\nCMP ebx, 25\nJNE end_label\nADD ecx, 52\nMOV eax, ebx\nDIV 7\nMOV ebx, eax\nJMP start_loop\nend_label:\nstart_loop:\nCMP eax, 18\nJG end_label\nMOV ecx, ebx\nSUB eax, ebx\nJMP start_loop\nend_label:\nstart_loop:\nCMP ecx, 70\nJG end_label\nMOV eax, 22\nMOV eax, ecx\nDIV 5\nMOV ecx, eax\nMOV eax, ecx\nDIV ecx\nMOV ecx, eax\nSHR ebx, 23\nMOV eax, ebx\nMUL 0\nMOV ebx, eax\nJMP start_loop\nend_label:\n",
+        "time_normal": 0.0025637,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 18,
+        "name": "FOR 1",
+        "status": "5",
+        "log": "MOV edx, 0\nstart_loop:\nCMP edx, 65\nJGE end_label\nSHL ecx, 13\nADD edx, 1\nJMP start_loop\nend_loop:\nMOV eax, 0\nstart_loop:\nCMP eax, 70\nJG end_label\nSUB edx, 23\nMOV eax, ecx\nDIV 5\nMOV ecx, eax\nMOV ebx, ebx\nOR ecx, 80\nMOV ecx, eax\nADD eax, 1\nJMP start_loop\nend_loop:\nMOV edx, 0\nstart_loop:\nCMP edx, 14\nJGE end_label\nSHR edx, 5\nSUB edx, eax\nADD edx, 1\nJMP start_loop\nend_loop:\nMOV ecx, 0\nstart_loop:\nCMP ecx, 23\nJG end_label\nMOV eax, ecx\nDIV 5\nMOV ecx, eax\nAND edx, 93\nADD ecx, 1\nJMP start_loop\nend_loop:\n",
+        "time_normal": 0.0035278,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      },
+      {
+        "id": 19,
+        "name": "FOR 2",
+        "status": "5",
+        "log": "MOV edx, 0\nstart_loop:\nCMP edx, 54\nJG end_label\nXOR eax, 24\nSHR edx, 10\nMOV eax, ebx\nMUL 6\nMOV ebx, eax\nADD edx, 1\nJMP start_loop\nend_loop:\nMOV ebx, 0\nstart_loop:\nCMP ebx, 75\nJGE end_label\nADD ecx, 11\nXOR ebx, 80\nSUB edx, ecx\nMOV edx, 69\nADD ebx, 1\nJMP start_loop\nend_loop:\nMOV ebx, 0\nstart_loop:\nCMP ebx, 86\nJG end_label\nMUL 2\nADD ebx, 1\nJMP start_loop\nend_loop:\nMOV eax, 0\nstart_loop:\nCMP eax, 66\nJGE end_label\nADD ebx, 28\nMOV eax, 92\nSHR ebx, 21\nADD eax, 1\nJMP start_loop\nend_loop:\nMOV edx, 0\nstart_loop:\nCMP edx, 79\nJGE end_label\nMOV eax, ebx\nMUL ebx\nMOV ebx, eax\nSUB eax, 25\nXOR ecx, eax\nMOV eax, edx\nMUL 5\nMOV edx, eax\nSHL ecx, 11\nADD edx, 1\nJMP start_loop\nend_loop:\nMOV edx, 0\nstart_loop:\nCMP edx, 47\nJGE end_label\nMOV eax, ecx\nMUL 10\nMOV ecx, eax\nADD edx, 1\nJMP start_loop\nend_loop:\nMOV ecx, 0\nstart_loop:\nCMP ecx, 29\nJGE end_label\nOR edx, eax\nADD ebx, 93\nSHL edx, 30\nMOV ecx, 9\nADD ecx, 1\nJMP start_loop\nend_loop:\nMOV ecx, 0\nstart_loop:\nCMP ecx, 94\nJGE end_label\nMOV eax, ecx\nDIV 7\nMOV ecx, eax\nADD ecx, 59\nMOV eax, ecx\nDIV ecx\nMOV ecx, eax\nMOV eax, edx\nMUL 8\nMOV edx, eax\nADD ecx, 1\nJMP start_loop\nend_loop:\n",
+        "time_normal": 0.0031793,
+        "time_valgrind": 0.0,
+        "timeout": 30000,
+        "test_score": 5
+      }
+    ]
+  ],
+  "test_path": "checker/",
+  "exec_name": [
+    "transpiler"
+  ],
+  "valgrind_enabled": false
+}
