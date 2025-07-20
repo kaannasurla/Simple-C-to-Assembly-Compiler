@@ -1,0 +1,28 @@
+CMP edx, 8
+JL end_label
+MOV eax, ebx
+MUL edx
+MOV ebx, eax
+end_label:
+CMP edx, 14
+JNE end_label
+OR ebx, ebx
+MOV eax, edx
+MUL ebx
+MOV edx, eax
+SHL edx, 1
+SUB eax, eax
+end_label:
+CMP edx, 67
+JG end_label
+Error
+end_label:
+CMP eax, 96
+JG end_label
+SUB edx, ecx
+end_label:
+CMP edx, 82
+JNE end_label
+SUB eax, 10
+SUB ebx, 72
+end_label:

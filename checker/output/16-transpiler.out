@@ -1,0 +1,33 @@
+start_loop:
+CMP ebx, 9
+JNE end_label
+SUB ecx, ebx
+JMP start_loop
+end_label:
+start_loop:
+CMP ecx, 23
+JGE end_label
+OR ecx, 11
+AND edx, edx
+XOR ecx, 43
+JMP start_loop
+end_label:
+start_loop:
+CMP edx, 50
+JNE end_label
+XOR edx, 69
+MOV ebx, ecx
+JMP start_loop
+end_label:
+start_loop:
+CMP eax, 53
+JLE end_label
+MOV eax, ecx
+DIV 3
+MOV ecx, eax
+MOV ebx, edx
+SHR ecx, 20
+ADD edx, edx
+MOV eax, 49
+JMP start_loop
+end_label:

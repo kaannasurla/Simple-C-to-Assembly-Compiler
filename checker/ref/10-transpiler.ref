@@ -1,0 +1,13 @@
+MOV eax, ebx
+DIV 8
+MOV ebx, eax
+MOV eax, ebx
+DIV 4
+MOV ebx, eax
+Error
+MOV eax, ecx
+DIV 5
+MOV ecx, eax
+MOV eax, ecx
+DIV ecx
+MOV ecx, eax

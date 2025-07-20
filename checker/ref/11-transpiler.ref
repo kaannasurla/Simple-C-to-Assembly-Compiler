@@ -1,0 +1,30 @@
+MOV eax, ecx
+DIV 2
+MOV ecx, eax
+MOV eax, ecx
+DIV 9
+MOV ecx, eax
+MOV eax, ebx
+DIV 8
+MOV ebx, eax
+MOV eax, ebx
+DIV 6
+MOV ebx, eax
+MOV eax, ecx
+DIV ebx
+MOV ecx, eax
+MOV eax, ecx
+DIV ecx
+MOV ecx, eax
+MOV eax, ebx
+DIV ebx
+MOV ebx, eax
+MOV eax, ebx
+DIV 5
+MOV ebx, eax
+MOV eax, ebx
+DIV 2
+MOV ebx, eax
+MOV eax, ecx
+DIV ebx
+MOV ecx, eax

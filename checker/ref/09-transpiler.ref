@@ -1,0 +1,27 @@
+MOV eax, ebx
+MUL 4
+MOV ebx, eax
+MOV eax, edx
+MUL 7
+MOV edx, eax
+MOV eax, ecx
+MUL 8
+MOV ecx, eax
+MOV eax, ecx
+MUL edx
+MOV ecx, eax
+MOV eax, ebx
+MUL 0
+MOV ebx, eax
+MOV eax, ebx
+MUL 1
+MOV ebx, eax
+MOV eax, ebx
+MUL ecx
+MOV ebx, eax
+MOV eax, edx
+MUL ebx
+MOV edx, eax
+MOV eax, ebx
+MUL edx
+MOV ebx, eax

@@ -1,0 +1,5 @@
+SHR edx, 20
+SHR eax, 24
+SHR ebx, 4
+SHR ebx, 7
+SHL edx, 2

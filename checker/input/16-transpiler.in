@@ -1,0 +1,19 @@
+while (b == 9) {
+	c = c - b;
+}
+while (c < 23) {
+	c = c | 11;
+	d = d & d;
+	c = c ^ 43;
+}
+while (d == 50) {
+	d = d ^ 69;
+	b = c;
+}
+while (a > 53) {
+	c = c / 3;
+	b = d;
+	c = c >> 20;
+	d = d + d;
+	a = 49;
+}

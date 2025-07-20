@@ -1,0 +1,10 @@
+SUB ebx, 55
+SUB ebx, 22
+SUB ebx, 70
+SUB ebx, 90
+SUB ebx, 50
+SUB edx, 82
+SUB eax, 67
+SUB edx, 83
+SUB ebx, 28
+SUB ebx, ebx

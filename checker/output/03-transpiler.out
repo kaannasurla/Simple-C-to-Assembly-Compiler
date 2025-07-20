@@ -1,0 +1,10 @@
+AND ecx, 73
+AND edx, 45
+AND eax, 6
+AND edx, eax
+OR eax, 19
+XOR ebx, eax
+AND eax, 44
+XOR edx, 89
+AND edx, 20
+AND eax, 41

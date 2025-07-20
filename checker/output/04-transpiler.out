@@ -1,0 +1,4 @@
+ADD eax, edx
+ADD ecx, 26
+ADD ebx, ebx
+ADD ebx, 63

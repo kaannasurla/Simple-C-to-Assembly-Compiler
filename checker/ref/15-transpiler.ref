@@ -1,0 +1,76 @@
+CMP edx, 95
+JG end_label
+SUB ebx, 72
+MOV eax, edx
+MUL edx
+MOV edx, eax
+ADD ebx, ecx
+XOR ebx, 65
+ADD eax, ebx
+end_label:
+CMP edx, 87
+JL end_label
+SHL edx, 26
+MOV eax, ebx
+MUL 10
+MOV ebx, eax
+ADD edx, edx
+MOV ecx, edx
+MOV eax, ebx
+MUL ecx
+MOV ebx, eax
+end_label:
+CMP eax, 82
+JNE end_label
+ADD eax, 37
+SUB ecx, ebx
+MOV eax, ecx
+XOR edx, 51
+SUB ebx, 50
+end_label:
+CMP ebx, 14
+JGE end_label
+ADD edx, 13
+SHR ebx, 27
+ADD eax, 57
+SUB eax, 65
+end_label:
+CMP eax, 33
+JNE end_label
+ADD edx, 61
+ADD eax, 86
+MOV eax, ebx
+DIV 10
+MOV ebx, eax
+end_label:
+CMP ebx, 46
+JL end_label
+Error
+SHR edx, 29
+SUB ecx, 2
+SHL eax, 6
+end_label:
+CMP edx, 99
+JLE end_label
+MOV eax, 40
+MOV eax, ecx
+MUL 4
+MOV ecx, eax
+SUB eax, 82
+SHR ebx, 27
+AND eax, 87
+end_label:
+CMP eax, 75
+JNE end_label
+SHR edx, 10
+end_label:
+CMP ecx, 97
+JNE end_label
+MOV eax, edx
+MUL 2
+MOV edx, eax
+end_label:
+CMP edx, 50
+JLE end_label
+SUB eax, 24
+end_label:

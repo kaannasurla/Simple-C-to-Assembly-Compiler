@@ -1,0 +1,1 @@
+./src/main.c:113: WARNING:LONG_FUNCTION: 'logic_op' function definition is 97 lines, perhaps refactor

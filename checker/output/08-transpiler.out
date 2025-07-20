@@ -1,0 +1,9 @@
+MOV eax, edx
+MUL 8
+MOV edx, eax
+MOV eax, ecx
+MUL ecx
+MOV ecx, eax
+MOV eax, ecx
+MUL ebx
+MOV ecx, eax

@@ -1,0 +1,9 @@
+SHR ecx, 17
+SHR eax, 2
+SHR ecx, 16
+SHR edx, 11
+SHR edx, 10
+SHL eax, 0
+SHL ebx, 29
+SHL edx, 8
+SHL ecx, 29

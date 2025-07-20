@@ -1,0 +1,5 @@
+MOV edx, 77
+MOV ebx, 23
+MOV eax, 96
+MOV eax, 23
+MOV ecx, 58
