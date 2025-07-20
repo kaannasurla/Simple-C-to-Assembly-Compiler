@@ -1,11 +1,5 @@
 # Simple-C-to-Assembly-Compiler
 
-
-## Introduction
-![](banner.webp)
-
-In a neon-lit room filled with vintage circuit boards and digital memes, Alex—a modern TikTok brain rot specialist—devised a daring plan to escape Instagram’s endless scroll. Determined to reclaim his mind, he crafted a groundbreaking compiler that transformed addictive algorithms into streams of artful data. With every line of code, toxic noise became immersive stories, intricate music, and thought-provoking visuals, forging a digital sanctuary where creativity reigned. As the algorithmic chains broke, Alex emerged as a quiet revolutionary—a cyber alchemist turning the toxic into transcendent.
-
 ### Objective
 
 Develop a small compiler or translator that converts simple C-like code snippets into basic assembly instructions. The primary goal is to familiarize yourself with assembly language mnemonics and to understand how high-level constructs map to low-level operations. This assignment is intentionally minimalistic to ease you into both assembly language and compiler design. If we actually want to be pedantic, this is actually a [transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler) implementation.
